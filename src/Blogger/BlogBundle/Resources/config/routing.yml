@@ -1,0 +1,6 @@
+blogger_blog_homepage:
+    #pattern:  /reversestring/{name}
+    pattern:  /reversestring
+    defaults: { _controller: BloggerBlogBundle:Default:index }
+    requirements:
+        _method:  GET
